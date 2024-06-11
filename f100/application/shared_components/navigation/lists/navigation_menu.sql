@@ -42,6 +42,15 @@ wwv_flow_imp_shared.create_list_item(
 ,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
 ,p_list_item_current_for_pages=>'3'
 );
+wwv_flow_imp_shared.create_list_item(
+ p_id=>wwv_flow_imp.id(620958604209686)
+,p_list_item_display_sequence=>40
+,p_list_item_link_text=>'LINE CHART'
+,p_list_item_link_target=>'f?p=&APP_ID.:4:&APP_SESSION.::&DEBUG.:::'
+,p_parent_list_item_id=>wwv_flow_imp.id(23714085259010187)
+,p_list_item_current_type=>'COLON_DELIMITED_PAGE_LIST'
+,p_list_item_current_for_pages=>'4'
+);
 wwv_flow_imp.component_end;
 end;
 /
