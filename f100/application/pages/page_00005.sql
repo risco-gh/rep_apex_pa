@@ -42,6 +42,8 @@ wwv_flow_imp_page.create_page_plug(
 'select 7 value, ''param_7'' name, 3 ord from dual',
 'union',
 'select 3 value, ''param_3'' name, 4 ord from dual',
+'union',
+'select 11 value, ''param_11'' name, 5 ord from dual',
 ') order by ord'))
 ,p_plug_source_type=>'NATIVE_JET_CHART'
 );
