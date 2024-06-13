@@ -21,7 +21,7 @@ wwv_flow_imp_page.create_page(
 ,p_protection_level=>'C'
 ,p_page_component_map=>'04'
 ,p_last_updated_by=>'LIFE_CYCLE'
-,p_last_upd_yyyymmddhh24miss=>'20240611114034'
+,p_last_upd_yyyymmddhh24miss=>'20240613085804'
 );
 wwv_flow_imp_page.create_page_plug(
  p_id=>wwv_flow_imp.id(32129489628142589)
