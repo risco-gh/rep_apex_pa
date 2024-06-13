@@ -21,7 +21,7 @@ wwv_flow_imp_page.create_page(
 ,p_protection_level=>'C'
 ,p_page_component_map=>'04'
 ,p_last_updated_by=>'LIFE_CYCLE'
-,p_last_upd_yyyymmddhh24miss=>'20240611133450'
+,p_last_upd_yyyymmddhh24miss=>'20240613134219'
 );
 wwv_flow_imp_page.create_page_plug(
  p_id=>wwv_flow_imp.id(39947027702381278)
@@ -42,6 +42,8 @@ wwv_flow_imp_page.create_page_plug(
 'select 7 value, ''param_7'' name, 3 ord from dual',
 'union',
 'select 3 value, ''param_3'' name, 4 ord from dual',
+'union',
+'select 5 value, ''param_5'' name, 5 ord from dual',
 ') order by ord'))
 ,p_plug_source_type=>'NATIVE_JET_CHART'
 );
