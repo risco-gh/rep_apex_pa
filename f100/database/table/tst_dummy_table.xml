@@ -5,7 +5,7 @@
 	xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
 	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
 	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
-	<changeSet id="f6ab1aa99f7b5302172b6a857f9b0b094980dd88" author="(ATPSMR)-Generated" failOnError="false"   runOnChange="false" runAlways="false"  >
+	<changeSet id="707b6736320531e00eb6c0afbc57e16269aad973" author="(ATPSMR)-Generated" failOnError="false"   runOnChange="false" runAlways="false"  >
 		<n0:createSxmlObject objectName="TST_DUMMY" objectType="TABLE" ownerName="ATPSMR"  replaceIfExists="false" >
 			<n0:source><![CDATA[
   <TABLE xmlns="http://xmlns.oracle.com/ku" version="1.0">
@@ -16,7 +16,7 @@
          <COL_LIST_ITEM>
             <NAME>ID_NUMBER</NAME>
             <DATATYPE>NUMBER</DATATYPE>
-            <PRECISION>3</PRECISION>
+            <PRECISION>5</PRECISION>
             <SCALE>0</SCALE>
             <NOT_NULL></NOT_NULL>
             <ANNOTATION_LIST></ANNOTATION_LIST>
